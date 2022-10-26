@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="html">
+
+<head>
+  <title>Startseite</title>
+  <link rel="stylesheet" href="../../Css/Charaktere.css" media="screen">
+  <meta property="og:title" content="Startseite">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="">
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <h1 class="HeaderStart">Embers D. Mieko</h1>
+      <div class="tab">
+        <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Introduction')">Introduction</button>
+        <button class="tablinks" onclick="openCity(event, 'Personality and Relationships')">Personality and
+          Relationships</button>
+        <button class="tablinks" onclick="openCity(event, 'Abilities and Powers')">Abilities and Powers</button>
+        <button class="tablinks" onclick="openCity(event, 'History')">History</button>
+      </div>
+
+      <section class="section-1">
+        <div class="container">
+          <div id="Introduction" class="tabcontent">
+            <p class="Introduction">Embers D. Mieko more commonly known as just Miko and by her epithet “Devilish
+              Musician”, is a pirate and musician from West Blue and cook and first commander of the Heart Pirates. She
+              is
+              one of the thirteen pirates who are referred to as the “Worst Generation”. Her singing is well known among
+              pirates. She is the daughter of Red-Haired Shanks and was a musician in his crew, until he left her while
+              she was still a child. She travels alongside the Heart Pirates and supporting Law to find the One Piece,
+              while also researching about the Will of D.
+              <br><br>
+              Embers D. Mieko more commonly known as just Miko and by her epithet “Devilish Musician”, is a pirate and
+              musician from West Blue and cook and first commander of the Heart Pirates. She is one of the thirteen
+              pirates who are referred to as the “Worst Generation”. Her singing is well known among pirates. She is the
+              daughter of Red-Haired Shanks and was a musician in his crew, until he left her while she was still a
+              child.
+              She travels alongside the Heart Pirates and supporting Law to find the One Piece, while also researching
+              about the Will of D.<br><br>
+              Before joining the Heart Pirates, she travelled a while as a musician. Through a series of unlucky events,
+              she tried to protect someone she shouldn’t and faced Sakazuki, who left the battlefield, after Mieko was
+              unconscious and badly injured at her back. She has a large burn scar on her back since then.
+              <br><br>
+              It was Ace, who discovered her and brought her to Whitebeard, who let her rest and get healed by Marco.
+              She
+              stayed with them for half a year, learned more about her Devil Fruit and more about the pirate life.
+              During
+              that time, she also received her first bounty 30.000.000. She was the first and only daughter to
+              Whitebeard,
+              as well as the little sister to everyone. Whitebeard, Ace, and Mieko agreed on leaving Miko behind on the
+              next island, as it will be safer for her. They promised to meet again.
+              <br><br>
+              After helping the Straw-Hat Pirates on said island, they agreed on taking her with them to the next
+              island.
+              She became good friends with everyone and especially with Nico Robin, who is like her “older sister”. It’s
+              been some time, until they separate again and just a few months later, she protected Law and Bepo and
+              that’s
+              how she ended up with the Heart Pirates
+              <br><br>
+              During the timeskip, her bounty increased from 30,000,000 to 300,000,000 and the name “Devilish Musician”
+              became a name known in the new world, as she was able to easily take down Very Good and some lower-ranking
+              marines.
+              <br>
+            </p>
+            <div id="toc_container" class="toc_container">
+              <table class="toc-list" style="width: 226px;">
+                <tr>
+                  <th class="toc_title">Contents</th>
+                </tr>
+              </table>
+              <ol style="outline:rgb(66, 153, 225) solid 1px !important; width: 226px; margin:0">
+                <li><a href="#Appearance">Appearance</a>
+                  <ol>
+                    <li><a href="#Before the timeskip">Before the timeskip</a></li>
+                    <li><a href="#After the timeskip">After the timeskip</a></li>
+                  </ol>
+                </li>
+                <li><a href="#Gallery">Gallery</a></li>
+              </ol>
+
+            </div>
+
+          </div>
+
+          <div id="Personality and Relationships" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+
+          <div id="Abilities and Powers" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+        
+          <div id="History" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+        </div>
+    <div class="container">
+      Test
+    </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
+
+<script>
+  function startTab() {
+    document.getElementById("defaultOpen").click();
+  }
+
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  startTab()
+</script>
