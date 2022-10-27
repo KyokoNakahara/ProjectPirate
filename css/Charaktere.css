@@ -8,12 +8,13 @@
 }
 
 body {
-    margin: 300px;
+    margin: 10%;
     background-color: #202424;
     height: fit-content;
     color: white;
     line-height: 1.75;
     text-align: justify;
+
 }
 
 header {
@@ -46,9 +47,8 @@ header {
 }
 
 .section-1 {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    outline: rgb(66, 153, 225) solid 1px !important;
+
+
     padding: 10px;
 }
 
@@ -71,7 +71,6 @@ header {
     border: 0px;
     margin: 0px;
     display: block;
-    
     padding: 5px 10px 5px 10px;
 
 }
@@ -113,7 +112,7 @@ a:hover {
     border-radius: 3px;
     font-size: 100%;
     color: white !important;
-    
+
 }
 
 .toc_title {
@@ -151,7 +150,75 @@ li:before {
     margin-left: -20px;
 }
 
-td {
-    align-items: left;
-    justify-items: left;
+
+.IntroductionTable {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin: 0
+}
+
+
+.TableHeader {
+    width: 100%;
+    background-color: #fbc339;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+tr {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    column-gap: 9px;
+    border-top-width: 1px;
+    flex-direction: row;
+    outline: grey solid 0.5px !important;
+    height: fit-content;
+}
+
+.pbounty {
+    line-height: 70%;
+}
+
+.profile {
+    width: 300px;
+    margin: 0;
+}
+
+h3 {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h4 {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-table {
+    border-radius: 3px 0px 0px 3px;
+    background-color: var(--theme-page-background-color);
+    min-height: 480px;
+    padding: 24px 36px;
+    position: relative;
+    width:300px; 
+    float:right;
 }
